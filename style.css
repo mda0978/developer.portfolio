@@ -1,14 +1,47 @@
-body{
+body {
     // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 700
+    // <weight>: Use a value from 100 to 700
 
-.josefin-sans-<uniquifier> {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    .josefin-sans-<uniquifier> {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
 }
-}
-h1{
+
+h1 {
     font-size: 50px;
+
+}
+
+.color {
+    color: blue;
+}
+
+h2 {
+    color: rgb(81, 73, 44);
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(darkblue, white);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: lightblue;
+    font-weight: 700;
 }
