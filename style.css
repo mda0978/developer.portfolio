@@ -35,6 +35,11 @@ p {
     margin-bottom: 100px;
 }
 
+.second-flex {
+    margin-bottom: 100px;
+    background-color: cornflowerblue;
+}
+
 .half {
     width: 50%;
     padding-left: 5%;
@@ -64,4 +69,31 @@ p {
 .second-section {
     background-image: url(banner.jpg);
     background-repeat: no-repeat;
+}
+
+.first {
+    padding-left: 30px;
+}
+
+
+.experience-firstitem {
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 20px 30px skyblue;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background-image: url(image/background\(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.experience-seconditem {
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 20px 30px skyblue;
+    margin: 10px 20px;
+    background-image: url(image/background\(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
