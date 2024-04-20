@@ -96,4 +96,21 @@ p {
     background-image: url(image/background\(3\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px;
+}
+
+#border-first {
+    border-left: 7px solid;
+    border-image: linear-gradiant(tomato orange);
+    border-image-slice: 1;
+}
+
+#border-second {
+    border-left: 7px solid;
+    border-image: linear-gradiant(lightblue black);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
